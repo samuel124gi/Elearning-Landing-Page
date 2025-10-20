@@ -8,12 +8,11 @@ import {
   ImageContainer,
 } from "./styles";
 
-import Crypto from "../../assets/icons/icon-crypto.svg";
-import Photo from "../../assets/icons/icon-photography.svg";
+import Photo from "../../assets/icons/photograph.svg";
+import Crypto from "../../assets/icons/crypto.svg";
 import Animation from "../../assets/icons/icon-animation.svg";
-import Business from "../../assets/icons/icon-business.svg";
-
-import Design from "../../assets/icons/icon-design.svg";
+import Business from "../../assets/icons/business.svg";
+import Design from "../../assets/icons/design.svg";
 
 const Card = () => {
   return (
@@ -31,17 +30,7 @@ const Card = () => {
         </Text>
         <Suggestion>Get Started</Suggestion>
       </Cards>
-      <Cards>
-        <ImageContainer>
-          <Photo />
-        </ImageContainer>
-        <Heading>Photography</Heading>
-        <Text>
-          Explore critical fundamentals like lighting, composition, and focus to
-          capture exceptional photos.
-        </Text>
-        <Suggestion>Get Started</Suggestion>
-      </Cards>
+
       <Cards>
         <ImageContainer>
           <Design />
@@ -50,6 +39,17 @@ const Card = () => {
         <Text>
           Create beautiful, usable interfaces to help shape the future of how
           the web looks.
+        </Text>
+        <Suggestion>Get Started</Suggestion>
+      </Cards>
+      <Cards>
+        <ImageContainer>
+          <Photo />
+        </ImageContainer>
+        <Heading>Photography</Heading>
+        <Text>
+          Explore critical fundamentals like lighting, composition, and focus to
+          capture exceptional photos.
         </Text>
         <Suggestion>Get Started</Suggestion>
       </Cards>
