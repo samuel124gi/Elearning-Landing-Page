@@ -18,7 +18,6 @@ const Card = () => {
   return (
     <MainContainer>
       <FirstCard>Checkout out our most popular courses!</FirstCard>
-
       <Cards>
         <ImageContainer>
           <Animation />
